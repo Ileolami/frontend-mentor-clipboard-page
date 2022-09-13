@@ -10,10 +10,11 @@ body{
 
   font-family: 'Bai Jamjuree', sans-serif;
 
-  margin: -20px;
+  /* margin: -20px; */
+  margin: 0;
 
-  padding: 10px;
-
+  /* padding: 10px; */
+  padding: 0;
 }
 
 .header {
@@ -146,6 +147,10 @@ button{
 
  }
 
+ .social-media img {
+  margin-left: 1.2rem;
+}
+
 #compute{
 
  margin-right: 160px;
@@ -175,6 +180,20 @@ a {
     flex-direction: column;
   }
 
+  button {
+    display: block;
+  }
+
+  .btn1{
+    margin: 1.5rem auto 0;
+    width: 80%;
+  }
+  
+  .btn2{
+    margin: 1.5rem auto 0;
+    width: 80%;
+  }
+
   #compute{
     margin-right: 0;
    }
@@ -197,6 +216,7 @@ a {
 
   footer {
     flex-direction: column;
+    gap: 0;
   }
 
   .social-media {
