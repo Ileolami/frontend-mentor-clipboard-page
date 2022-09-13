@@ -217,6 +217,7 @@ a {
   footer {
     flex-direction: column;
     gap: 0;
+    padding-bottom: 25px;
   }
 
   .social-media {
@@ -224,7 +225,7 @@ a {
   }
 
   .social-media img {
-    margin-left: 0.5rem;
+    margin-left: 1.5rem;
   }
 }
 
